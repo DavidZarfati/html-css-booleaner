@@ -3,15 +3,25 @@ header{
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-size: 400px;
+ 
+background-size: contain;
+background-position: bottom;
+padding-top: 40px;
+
 }
-.scatola{
+img{
+   background-repeat: no-repeat;
+width: 20%;
+padding-top: 40px;
+}
+/* .scatola{
 height: 100px;
 width: 20%;
 background-repeat: no-repeat;
 background-size: contain;
 background-position: bottom;
 padding-top: 40px;
-}
+} */
 /* .scatola>img{
     height: 100%;
 } */
@@ -46,9 +56,12 @@ h3{
 }
 #computer{
     background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
 }
 #graph{
     background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+
 }
 .related-article-title{
     margin: 0;
@@ -60,4 +73,7 @@ h3{
     background-size: cover;
     margin-bottom: 10px;
     padding: 10px;
+}
+figure>img{
+     height:300px; width:40%;
 }
