@@ -40,3 +40,24 @@ text-align: center;
 .wd-50{
     width: 50%;
 }
+h3{
+    color: rgb(124, 119, 119);
+
+}
+#computer{
+    background-image: url(../img/monitor.jpg);
+}
+#graph{
+    background-image: url(../img/graph.jpg);
+}
+.related-article-title{
+    margin: 0;
+    font-size: 1.2rem;  color: white;
+    width: 210px;
+    height: 160px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding: 10px;
+}
