@@ -50,10 +50,9 @@ text-align: center;
 .wd-50{
     width: 50%;
 }
-h3{
+/* h3{
     color: rgb(124, 119, 119);
-
-}
+} */
 #computer{
     background-image: url(../img/monitor.jpg);
     background-repeat: no-repeat;
@@ -76,4 +75,7 @@ h3{
 }
 figure>img{
      height:300px; width:40%;
+}
+.grigio{
+    color: gray;
 }
